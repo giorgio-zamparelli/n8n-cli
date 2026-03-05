@@ -4,6 +4,7 @@
   "description": "CLI wrapper for the n8n REST API",
   "type": "module",
   "bin": {
+    "n8n": "./bin/n8n-cli.js",
     "n8n-cli": "./bin/n8n-cli.js"
   },
   "engines": {
