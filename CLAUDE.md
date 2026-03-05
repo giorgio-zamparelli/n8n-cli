@@ -4,10 +4,10 @@ CLI wrapper for the n8n REST API at `https://n8n.waiterio.com`.
 
 ## Project Overview
 
-- **Repo**: [waiter-io/n8n-cli](https://github.com/waiter-io/n8n-cli)
+- **Repo**: [giorgio-zamparelli/n8n-cli](https://github.com/giorgio-zamparelli/n8n-cli)
 - **Runtime**: Node.js 18+ (ESM), native `fetch` (no HTTP dependencies)
 - **Single dependency**: `commander` for CLI parsing
-- **Binary name**: `n8n-cli` (avoids conflict with official `n8n` binary)
+- **Binary names**: `n8n` and `n8n-cli` (both point to the same entry point)
 - **Output**: JSON to stdout (agent-friendly), `--pretty` flag for humans
 - **Errors**: JSON to stderr, non-zero exit code
 
@@ -75,4 +75,4 @@ No build step needed — pure ESM JavaScript.
 - **n8n instance**: `https://n8n.waiterio.com` (self-hosted on AWS EC2)
 - **n8n infrastructure**: `waiterio/n8n/` in the waiterio monorepo (CDK + Docker Compose)
 - **n8n SSM CLI**: `waiterio/n8n/cli.js` in the waiterio monorepo (runs n8n CLI commands on EC2 via SSM)
-- **Skill file**: `.claude/skills/n8n-cli/SKILL.md` in the waiterio monorepo
+- **Skill file**: `.claude/skills/n8n/SKILL.md` in the waiterio monorepo

@@ -5,7 +5,7 @@ CLI wrapper for the [n8n REST API](https://docs.n8n.io/api/). Designed for agent
 ## Installation
 
 ```bash
-git clone https://github.com/waiter-io/n8n-cli.git
+git clone https://github.com/giorgio-zamparelli/n8n-cli.git
 cd n8n-cli
 npm install
 npm link
