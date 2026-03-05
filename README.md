@@ -13,7 +13,16 @@ npm link
 
 ## Configuration
 
-Set your n8n API key via one of (in priority order):
+### Getting an API Key
+
+1. Open your n8n instance and go to **Settings** → **n8n API** (or navigate to `/settings/api`)
+2. Click **Create an API key**
+3. Give it a label and click **Save**
+4. Copy the generated key
+
+### Setting the API Key
+
+Store your API key via one of (in priority order):
 
 1. Environment variable: `export N8N_API_KEY=your-key`
 2. `.env` file in current directory
