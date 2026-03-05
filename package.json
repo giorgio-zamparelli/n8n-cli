@@ -1,0 +1,30 @@
+{
+  "name": "n8n-cli",
+  "version": "1.0.0",
+  "description": "CLI wrapper for the n8n REST API",
+  "type": "module",
+  "bin": {
+    "n8n-cli": "./bin/n8n-cli.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "keywords": [
+    "n8n",
+    "cli",
+    "automation",
+    "workflow"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/waiter-io/n8n-cli.git"
+  },
+  "dependencies": {
+    "commander": "^13.1.0"
+  }
+}
